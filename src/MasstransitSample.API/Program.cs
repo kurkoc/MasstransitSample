@@ -1,6 +1,6 @@
 using MassTransit;
-using MasstransitSample.API;
 using MasstransitSample.API.Consumers;
+using MasstransitSample.API.Contracts;
 
 var builder = WebApplication.CreateBuilder(args);
 

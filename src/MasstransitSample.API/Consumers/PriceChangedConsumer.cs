@@ -1,4 +1,5 @@
 ﻿using MassTransit;
+using MasstransitSample.API.Contracts;
 
 namespace MasstransitSample.API.Consumers
 {

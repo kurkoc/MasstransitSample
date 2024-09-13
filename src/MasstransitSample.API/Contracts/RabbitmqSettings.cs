@@ -1,4 +1,4 @@
-﻿namespace MasstransitSample.API
+﻿namespace MasstransitSample.API.Contracts
 {
     public class RabbitmqSettings
     {
