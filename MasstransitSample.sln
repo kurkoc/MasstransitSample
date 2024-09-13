@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3E299AF5-8CFD-4199-BBBE-E6388AFC7BA8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "docs", "docs", "{F098E886-8FB4-4A71-99C6-D1D4CFAB5152}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{D3EAFAF8-7BA0-4133-BAE1-469B209632E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MasstransitSample.API", "src\MasstransitSample.API\MasstransitSample.API.csproj", "{93026EAC-A94C-4EBA-A0D7-75229364CD0E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{93026EAC-A94C-4EBA-A0D7-75229364CD0E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93026EAC-A94C-4EBA-A0D7-75229364CD0E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93026EAC-A94C-4EBA-A0D7-75229364CD0E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93026EAC-A94C-4EBA-A0D7-75229364CD0E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{93026EAC-A94C-4EBA-A0D7-75229364CD0E} = {3E299AF5-8CFD-4199-BBBE-E6388AFC7BA8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {230DE017-C801-4FE9-A5E2-51BB563D2B06}
+	EndGlobalSection
+EndGlobal
