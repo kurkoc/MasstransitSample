@@ -1,4 +1,4 @@
-﻿namespace MasstransitSample.API
+﻿namespace Common
 {
     public class ProductCreated
     {

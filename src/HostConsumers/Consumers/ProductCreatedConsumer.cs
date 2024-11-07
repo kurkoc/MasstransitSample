@@ -1,6 +1,7 @@
-﻿using MassTransit;
+﻿using Common;
+using MassTransit;
 
-namespace MasstransitSample.API.Consumers
+namespace HostConsumers.Consumers
 {
     public class ProductCreatedConsumer : IConsumer<ProductCreated>
     {
