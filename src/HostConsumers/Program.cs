@@ -22,8 +22,8 @@ builder.Services.AddMassTransit(busConfigurator =>
 
         rabbitMqBusConfigurator.ReceiveEndpoint("product-created", configureEndpoint =>
         {
-            configureEndpoint.Consumer<ProductCreatedConsumer>();
             configureEndpoint.ConfigureConsumeTopology = false;
+            configureEndpoint.Consumer<ProductCreatedConsumer>();
         });
     });
 });
