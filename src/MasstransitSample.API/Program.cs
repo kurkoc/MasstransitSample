@@ -29,13 +29,13 @@ builder.Services.AddMassTransit(busConfigurator =>
             configTopology.SetEntityName(name);
         });
 
-        
 
-        //rabbitMqBusConfigurator.Publish<PriceChanged>(topology => 
-        //{
-        //    string queueName = KebabCaseEndpointNameFormatter.Instance.SanitizeName(topology.Exchange.ExchangeName + "-queue");
-        //    topology.BindQueue(topology.Exchange.ExchangeName, queueName);
-        //});
+
+        rabbitMqBusConfigurator.Publish<PriceChanged>(topology =>
+        {
+            string queueName = KebabCaseEndpointNameFormatter.Instance.SanitizeName(topology.Exchange.ExchangeName + "-queue");
+            topology.BindQueue(topology.Exchange.ExchangeName, queueName);
+        });
 
         //rabbitMqBusConfigurator.ReceiveEndpoint("product-created", configureEndpoint =>
         //{
